@@ -92,7 +92,7 @@ def send_mail(id):
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
-    msg['Subject'] = "Student Registration"
+    msg['Subject'] = "Product Details"
     mail_text = " Product name: %s \n Price: %s " % (name, price)
     body = mail_text
     msg.attach(MIMEText(body, 'plain'))
