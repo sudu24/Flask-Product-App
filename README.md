@@ -6,8 +6,8 @@ A simple Flask Product App where the user can add new products and get more info
 
 <ul>
   <li><a href="http://flask.pocoo.org/">Flask</a></li>
-  <li>flask-mysqldb</li>
-  <li>xampp</li>
+  <li><a href="https://flask-mysqldb.readthedocs.io/en/latest/">flask-mysqldb</li>
+  <li><a href="https://www.apachefriends.org/download.html">xampp</li>
 </ul>
 
 Note: pip install flask-mysqldb error can be resolved by following the below steps
